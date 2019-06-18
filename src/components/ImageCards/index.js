@@ -12,14 +12,3 @@ function ImageCard(props) {
 }
 
 export default ImageCard;
-
-
-
-// const Cards = props => (
-  
-//   <div className="card" onClick={props.imageClick}>
-//     <div className="img-container">
-//       <img alt={props.id}src={require("../../images/" + props.image)} key={props.key}/>
-//     </div>
-//   </div>
-// );
