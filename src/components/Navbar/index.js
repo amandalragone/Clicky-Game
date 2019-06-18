@@ -1,9 +1,6 @@
 import React from "react";
 
-function Navbar() {
-
-  var currentScore = 0;
-  var topScore = 0;
+function Navbar({ currentScore , topScore }) {
 
     return (
 
